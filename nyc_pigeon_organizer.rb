@@ -11,8 +11,11 @@ color_array = pigeon_data[:color].flatten
     
     color_array.each_with_index do |color, index|
     
+    if color == 
     
-  end 
+    end 
+  
+  
   end
 
  
