@@ -10,9 +10,9 @@ color_array = []
 color_array << pigeon_data[:color].flatten
 
   color_array.each do |color, name|
+    binding.pry
     
     # hash.each do |key|
-      
     #   if key == name 
         
     #     hash[key][:color] << color
@@ -20,7 +20,7 @@ color_array << pigeon_data[:color].flatten
     # end
   end
 
-binding.pry
+
  
  
 end 
