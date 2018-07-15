@@ -9,11 +9,8 @@ hash = Hash[name_array.collect { |name| [name, {:color => [], :gender => [], :li
 color_array = pigeon_data[:color]
 
 
-# end 
 
 
-
-# pigeon_data[:color].values 
 binding.pry
  
  
