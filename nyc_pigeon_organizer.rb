@@ -10,7 +10,11 @@ color_array = pigeon_data[:color]
 
   color_array.each_with_index do |color, name|
     
-    if hash.each do |key, val|
+    hash.each do |key, val|
+      
+      
+      
+    end 
     
   end 
 
