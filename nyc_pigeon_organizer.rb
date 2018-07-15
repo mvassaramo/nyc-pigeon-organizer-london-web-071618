@@ -13,6 +13,7 @@ color_array = pigeon_data[:color].flatten
     
     if hash.keys.include?(value)
       hash[value][:color] << value
+    end 
     
     end 
   
