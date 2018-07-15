@@ -11,7 +11,7 @@ color_array = pigeon_data[:color].flatten
     
     color_array.each_with_index do |value, index|
     
-    if color == 
+    if hash.keys.include?(value) 
     
     end 
   
