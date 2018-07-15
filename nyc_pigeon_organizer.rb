@@ -9,11 +9,11 @@ hash = Hash[name_array.collect { |name| [name, {:color => [], :gender => [], :li
 
 hash.keys.each_with_index do |name, index|
   
-if pigeon_data.[color].values.include?(name)
-    
-hash[name][:color] << pigeon_data[:color].keys
-end 
-# end 
+      if pigeon_data.[color].values.include?(name)
+          
+      hash[name][:color] << pigeon_data[:color].keys
+      end 
+ end 
 
 
 # pigeon_data[:color].values 
