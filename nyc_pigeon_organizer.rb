@@ -8,10 +8,10 @@ hash = Hash[name_array.collect { |name| [name, {:color => [], :gender => [], :li
 
 color_array = pigeon_data[:color]
 
-color_array.each_with_index do ||
-  
-  
-end 
+  color_array.each_with_index do ||
+    
+    
+  end 
 
 binding.pry
  
