@@ -13,9 +13,4 @@ color_array << pigeon_data[:color].flatten
     
   end
 
-
- 
- 
-end 
-
  
