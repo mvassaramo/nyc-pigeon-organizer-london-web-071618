@@ -9,11 +9,7 @@ hash = Hash[name_array.collect { |name| [name, {:color => [], :gender => [], :li
 color_array = pigeon_data[:color].flatten
     binding.pry
     
-    color_array.each_with_index do |value, index|
     
-    if hash.keys.include?(value)
-      hash[value][:color][] << value
-    end 
     
     end 
   
