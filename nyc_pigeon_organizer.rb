@@ -14,5 +14,4 @@ hash[name][:color][color_array.collect {|color|  [color] }
   
 ]
   end
-
- 
+binding.pry
