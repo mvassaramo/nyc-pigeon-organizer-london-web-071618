@@ -11,7 +11,7 @@ hash.each do |name|
   
 end 
 
-pigeon_data[:color].values 
+# pigeon_data[:color].values 
 binding.pry
  
  
