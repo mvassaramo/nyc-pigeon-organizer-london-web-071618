@@ -10,6 +10,7 @@ color_array = pigeon_data[:color].flatten
     binding.pry
     
 
+hash[name][:color] 
   
   
   end
