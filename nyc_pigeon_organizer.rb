@@ -10,7 +10,7 @@ color_array = pigeon_data[:color].flatten
 
     
 
-hash[name][:color][color_array.collect {|color|  color] }
+hash[name][:color][color_array.collect {|color|  [color] }
   
 
   end
