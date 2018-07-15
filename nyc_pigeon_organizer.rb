@@ -8,7 +8,6 @@ hash = Hash[name_array.collect { |name| [name, {:color => [], :gender => [], :li
 
 
 pigeon_data[:color].flatten.each do |val|
-  
 end 
 
 
