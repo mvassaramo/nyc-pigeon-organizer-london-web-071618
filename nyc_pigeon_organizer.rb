@@ -9,9 +9,10 @@ hash = Hash[name_array.collect { |name| [name, {:color => [], :gender => [], :li
 color_array = pigeon_data[:color].flatten
     binding.pry
     
-    color_array.each_with_index |color, index|
+    color_array.each_with_index do |color, index|
     
     
+  end 
   end
 
  
