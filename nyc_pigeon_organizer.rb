@@ -18,7 +18,7 @@ color_array = pigeon_data[:color]
       end
     end
   end
-  end 
+   
 
 binding.pry
  
