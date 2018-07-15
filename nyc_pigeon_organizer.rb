@@ -7,7 +7,7 @@ name_array = pigeon_data[:color].values.flatten
 hash = Hash[name_array.collect { |name| [name, {:color => [], :gender => [], :lives => []}] } ]
 
 color_array = []
-color_array = pigeon_data[:color].flatten
+color_array << pigeon_data[:color].flatten
 
   color_array.each do |color, name|
     
