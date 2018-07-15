@@ -12,6 +12,8 @@ color_array = pigeon_data[:color]
     
     hash.each do |key, val|
       
+      if key = name 
+      
       
       
     end 
