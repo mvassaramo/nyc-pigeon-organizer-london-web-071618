@@ -10,13 +10,13 @@ color_array = pigeon_data[:color]
 
   color_array.each do |color, name|
     
-    hash.each do |key|
+    # hash.each do |key|
       
-      if key == name 
+    #   if key == name 
         
-        hash[key][:color] << color
-      end
-    end
+    #     hash[key][:color] << color
+    #   end
+    # end
   end
 
 binding.pry
