@@ -16,6 +16,7 @@ hash = Hash[name_array.collect { |name| [name, {:color => [], :gender => [], :li
 # end 
 
 
+
 # pigeon_data[:color].values 
 binding.pry
  
