@@ -15,11 +15,9 @@ color_array = pigeon_data[:color]
       if key == name 
         
         hash[key][:color] << color
-      
-      
-      
-    end 
-    
+      end
+    end
+  end
   end 
 
 binding.pry
